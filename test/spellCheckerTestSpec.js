@@ -1,6 +1,6 @@
 let chai = require('chai');
 let expect = chai.expect;
-let spellChecker = require('./../spellChecker.js');
+let spellChecker = require(__dirname + './../src/Domain-based-spellChecker.js');
 
 describe('Run series of test for  spell checker checker', function() {
   it("should not result in error", function(done) {

@@ -41,7 +41,7 @@ let strArray = query.trim().split(' ');
         break;
     }
   }
-	//	@Mayanka : returns spellcorrected query and flag status
+	//	@Mayanka : returns spellcorrected word or sentence
     return {
     query,
   };

@@ -1,5 +1,5 @@
 //  @Mayanka:  just require 'spellChecker' in your file to use it
-let spellcheck = require('./src/spellChecker');
+let spellcheck = require('./src/Domain-based-spellChecker');
 //  @Mayanka: sample wrong word or sentence
 let wrongWord = 'travl by bs';
 //  @Mayanka: passing it to spellcheck and storing correct word in correctSpell

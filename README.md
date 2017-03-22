@@ -1,6 +1,6 @@
  ** Domain based Spell Checker<br/>
  --------------------------------------------------------------------------------
- The possible cases   which can happen in the spell check are :<br/>
+ The Two possible cases which can happen in  spell check are :<br/>
      (i) If the input word is in the dictionary, the same word is returned<br/>
     (ii) If the input word is not in the dictionary, spell check matches it with your <br/> corpus which can be your own set of words and brings the most accurate match.<br/>
  A separate corpus is maintained so that if your website is regarding travel, you can put your own words in the domainSpecificWords file(corpus folder) which reduces the time for replacing each wrong word as it doesn't have to loop through the entire English dictionary consisting of lakhs of <br/> words. Mostly the spell corrected word is an exact match which the user literally meant.<br/>

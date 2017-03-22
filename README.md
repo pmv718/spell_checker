@@ -1,9 +1,9 @@
  ** Domain based Spell Checker<br/>
  --------------------------------------------------------------------------------
- It contains a common dictionary for checking if a word is in the English dictionary and probably the following can happen,<br/>
-     (i)  If a word is in the dictionary, the actual word is returned<br/>
-    (ii) If a word is not in the dictionary , it checks the wrong word with a default english dictionary and matched it with your <br/> corpus which can be your own set of words and brings the most accurate match.<br/>
- A separate corpus is maintained so that if your website is regarding travel, you can put your own words in it which reduces the <br/> time for replacing each wrong word as it does'nt have to loop through the entire english dictionary having umpteen of<br/> words. Mostly the spell corrected is an exact word which the user meant.<br/>
+ The possible cases   which can happen in the spell check are :<br/>
+     (i) If the input word is in the dictionary, the same word is returned<br/>
+    (ii) If the input word is not in the dictionary, spell check matches it with your <br/> corpus which can be your own set of words and brings the most accurate match.<br/>
+ A separate corpus is maintained so that if your website is regarding travel, you can put your own words in the domainSpecificWords file(corpus folder) which reduces the time for replacing each wrong word as it doesn't have to loop through the entire English dictionary consisting of lakhs of <br/> words. Mostly the spell corrected word is an exact match which the user literally meant.<br/>
 
  Welcome!!<br/>
  Please follow these steps before using Domain-based spell-checker in your project<br/>

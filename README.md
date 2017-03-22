@@ -15,11 +15,11 @@
 
  **Uses  **
   main.js :
- let spellcheck = require('./src/Domain-based-spellChecker');
- let wrongWord = 'travl by bs';
- let correctSpell = spellcheck(wrongWord);
- console.log('Wrong word     : '+wrongWord);
- console.log('Corrected word : '+correctSpell.query);
+| let spellcheck = require('./src/Domain-based-spellChecker');
+| let wrongWord = 'travl by bs';
+| let correctSpell = spellcheck(wrongWord);
+| console.log('Wrong word     : '+wrongWord);
+| console.log('Corrected word : '+correctSpell.query);
 
  **Known issues : **
    Currently Domain-based spell checker supports only one edits as default.

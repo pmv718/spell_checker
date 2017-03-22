@@ -1,0 +1,31 @@
+{
+  "name": "spellChecker",
+  "version": "1.0.0",
+  "description": "Checks for spelling correction and returns correct word",
+  "main": "main.js",
+  "dependencies": {
+    "foreach": "^2.0.5",
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "chai": "^3.5.0",
+    "sinon": "^1.17.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-sample"
+  },
+  "keywords": [
+    "Spelling checker",
+    "spell checker",
+    "word correction",
+    "word corrector",
+    "check spelling",
+    "spellcheck",
+  ],
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "Mayanka",
+  "license": "Apache-2.0"
+}

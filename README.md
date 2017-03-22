@@ -14,12 +14,12 @@
    mocha test
 
  **Uses  **
-  main.js :
- *let spellcheck = require('./src/Domain-based-spellChecker');*
- let correctSpell = spellcheck(wrongWord);*
- *let wrongWord = 'travl by bs';*
- *console.log('Wrong word     : '+wrongWord);*
- *console.log('Corrected word : '+correctSpell.query);*
+  main.js :<br/>
+ let spellcheck = require('./src/Domain-based-spellChecker');<br/>
+ let wrongWord = 'travl by bs';<br/>
+ let correctSpell = spellcheck(wrongWord);<br/>
+ console.log('Wrong word     : '+wrongWord);<br/>
+ console.log('Corrected word : '+correctSpell.query);<br/>
 
  **Known issues : **
    Currently Domain-based spell checker supports only one edits as default.

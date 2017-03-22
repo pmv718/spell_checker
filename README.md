@@ -5,8 +5,8 @@ It contains a common dictionary for checking if a word is in the English diction
   (ii) If a word is not in the dictionary , it goes to your set of words in the corpus and brings the exact match.
 Its done so because if your website is regarding travel, you can put your own words in it which reduces the time for replacing each wrong word and mostly the corrected word that is returned is accurate.
 
-Hey There..Welcome!!
-PLease follow these steps before using Domain-based spell-checker in your project
+*Hey There..Welcome!!
+*Please follow these steps before using Domain-based spell-checker in your project
 --------------------------------------------------------------------------------
 ** steps
  npm install Domain-based-spellChecker

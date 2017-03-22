@@ -15,14 +15,14 @@
 
  **Uses  **
   main.js :
-| let spellcheck = require('./src/Domain-based-spellChecker');
-| let wrongWord = 'travl by bs';
-| let correctSpell = spellcheck(wrongWord);
-| console.log('Wrong word     : '+wrongWord);
-| console.log('Corrected word : '+correctSpell.query);
+ *let spellcheck = require('./src/Domain-based-spellChecker');*
+ let correctSpell = spellcheck(wrongWord);*
+ *let wrongWord = 'travl by bs';*
+ *console.log('Wrong word     : '+wrongWord);*
+ *console.log('Corrected word : '+correctSpell.query);*
 
  **Known issues : **
    Currently Domain-based spell checker supports only one edits as default.
 
  **Road map : **
-   A more enhanced version of this should be able to modify its edits for each word to bring up an exact corrected match for the    wrong word.
+   A more enhanced version of this should be able to modify its edits for each word to bring up an exact corrected match for the   wrong word.

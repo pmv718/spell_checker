@@ -1,8 +1,8 @@
 {
-  "name": "Domain-based-spellChecker",
+  "name": "domain-based-spellChecker",
   "version": "1.0.0",
   "description": "Domain-based spell checker for faster word correction",
-  "main": "src/Domain-based-spellChecker.js",
+  "main": "src/domain-based-spellChecker.js",
   "dependencies": {
     "foreach": "^2.0.5",
     "natural": "^0.5.0"

@@ -1,13 +1,15 @@
-  {
+{
   "name": "Domain-based-spellChecker",
   "version": "1.0.0",
   "description": "Domain-based spell checker for faster word correction",
-  "main": "main.js",
+  "main": "src/Domain-based-spellChecker.js",
   "dependencies": {
-    "foreach": "^2.0.5"
+    "foreach": "^2.0.5",
+    "natural": "^0.5.0"
   },
   "scripts": {
-    "test": "mocha test"
+    "test": "mocha test",
+    "start": "node main"
   },
   "devDependencies": {
     "mocha": "^3.2.0",
@@ -24,10 +26,13 @@
     "word correction",
     "word corrector",
     "check spelling",
-    "spellcheck"
+    "spellcheck",
+    "natural",
+    "natural language processing"
   ],
   "author": "Mayanka",
-  "license": "Apache-2.0", "bugs": {
+  "license": "Apache-2.0",
+  "bugs": {
     "url": "https://github.com/pmv718/spell_checker/issues"
   },
   "homepage": "https://github.com/pmv718/spell_checker#readme"

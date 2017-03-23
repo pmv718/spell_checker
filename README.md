@@ -17,9 +17,13 @@ mocha test
 
 ## main.js :
  ` let spellcheck = require('./src/Domain-based-spellChecker');`
+
  ` let wrongWord = 'travl by bs';`
+
  ` let correctSpell = spellcheck(wrongWord);`
+
  ` console.log('Wrong word     : '+wrongWord);`
+ 
  ` console.log('Corrected word : '+correctSpell.query);`
 
 ## Known issues :

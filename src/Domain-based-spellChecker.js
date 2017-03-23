@@ -43,6 +43,6 @@ let strArray = query.trim().split(' ');
   }
 	//	@Mayanka : returns spellcorrected word or sentence
     return {
-    query,
+    query
   };
 };

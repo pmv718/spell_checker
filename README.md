@@ -13,11 +13,11 @@ mocha test
 ## Usage :
 
 ## main.js :
- ` let spellcheck = require('./domain-based-spellchecker');`  
- ` let wrongWord = 'travl by bs';`
- ` let correctSpell = spellcheck(wrongWord);`  
- ` console.log('Wrong word     : '+wrongWord);`
-  ` console.log('Corrected word : '+correctSpell.query);`
+ ` let spellcheck = require('./domain-based-spellchecker');`     
+ ` let wrongWord = 'travl by bs';`    
+ ` let correctSpell = spellcheck(wrongWord);`    
+ ` console.log('Wrong word     : '+wrongWord);`    
+  ` console.log('Corrected word : '+correctSpell.query);`    
 
 ## Known issues :
 Currently Domain-based spell checker supports only one edit distance.

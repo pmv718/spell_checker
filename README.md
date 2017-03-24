@@ -4,11 +4,11 @@ This module performs spell checks of a word or sentence against the vocabulary o
  ***
 ## Steps :
 
-npm install domain-based-spellchecker
+ ` npm install domain-based-spellchecker `
 
 ## Test :
 
-mocha test
+ ` mocha test `
 
 ## Usage :
 

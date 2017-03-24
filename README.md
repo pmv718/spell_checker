@@ -4,7 +4,7 @@ This module performs spell checks of a word or sentence against the vocabulary o
  ***
 ## Steps :
 
-npm install domain-based-spellChecker
+npm install domain-based-spellchecker
 
 ## Test :
 
@@ -20,9 +20,9 @@ mocha test
   ` console.log('Corrected word : '+correctSpell.query);`    
 
 ## Known issues :
-Currently Domain-based spell checker supports only one edit distance.
+Currently domain-based spell checker supports only one edit distance.
 
 ## Road map :
-The next version of Domain-based spell checker should have more enhance edit distance implementation to bring up an exact correct match for the wrong word.
+The next version of domain-based spell checker should have more enhance edit distance implementation to bring up an exact correct match for the wrong word.
 
 ### For additional information, please refer  [here](https://github.com/pmv718/spell_checker/wiki)

@@ -1,6 +1,6 @@
 {
   "name": "domain-based-spellchecker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Domain-based spell checker for faster word correction",
   "main": "src/domain-based-spellchecker.js",
   "dependencies": {

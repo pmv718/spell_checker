@@ -13,7 +13,7 @@ This module performs spell checks of a word or sentence against the vocabulary o
 ## Usage :
 
 ## main.js :
- ` let spellcheck = require('./domain-based-spellchecker');`     
+ ` let spellcheck = require('domain-based-spellchecker');`     
  ` let wrongWord = 'travl by bs';`    
  ` let correctSpell = spellcheck(wrongWord);`    
  ` console.log('Wrong word     : '+wrongWord);`    

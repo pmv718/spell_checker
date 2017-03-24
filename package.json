@@ -1,6 +1,6 @@
 {
   "name": "domain-based-spellchecker",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Domain-based spell checker for faster word correction",
   "main": "src/domain-based-spellchecker.js",
   "dependencies": {
@@ -28,7 +28,8 @@
     "check spelling",
     "spellcheck",
     "natural",
-    "natural language processing"
+    "natural language processing",
+    "nlp"
   ],
   "author": "Mayanka",
   "license": "Apache-2.0",
